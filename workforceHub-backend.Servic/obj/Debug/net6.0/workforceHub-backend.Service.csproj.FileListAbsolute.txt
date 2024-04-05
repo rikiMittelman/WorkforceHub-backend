@@ -1,0 +1,17 @@
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.AssemblyInfo.cs
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Service.deps.json
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Service.dll
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Service.pdb
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Core.dll
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Data.dll
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Core.pdb
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Data.pdb
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.csproj.CopyComplete
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.dll
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\refint\workforceHub-backend.Service.dll
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.pdb
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\ref\workforceHub-backend.Service.dll

@@ -1,0 +1,12 @@
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.AssemblyInfo.cs
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\bin\Debug\net6.0\workforceHub-backend.Core.deps.json
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\bin\Debug\net6.0\workforceHub-backend.Core.dll
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\bin\Debug\net6.0\workforceHub-backend.Core.pdb
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.dll
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\refint\workforceHub-backend.Core.dll
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.pdb
+C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\ref\workforceHub-backend.Core.dll

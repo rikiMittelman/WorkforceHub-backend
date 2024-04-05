@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\workforceHub-backend.API.props" />
+</Project>

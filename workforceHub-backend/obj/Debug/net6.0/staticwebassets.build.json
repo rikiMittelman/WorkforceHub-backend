@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PpEQsXcjNd5lekqqXNl5ebJW0bP7IVkinMje9hIWIok=",
+  "Source": "workforceHub-backend.API",
+  "BasePath": "_content/workforceHub-backend.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

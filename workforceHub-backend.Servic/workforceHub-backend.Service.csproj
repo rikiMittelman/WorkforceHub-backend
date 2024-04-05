@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>workforceHub_backend.Servic</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\workforceHub-backend.Core\workforceHub-backend.Core.csproj" />
+    <ProjectReference Include="..\workforceHub-backend.Data\workforceHub-backend.Data.csproj" />
+  </ItemGroup>
+
+</Project>
