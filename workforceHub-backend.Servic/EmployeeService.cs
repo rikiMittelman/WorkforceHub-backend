@@ -32,9 +32,9 @@ namespace workforceHub_backend.Service
         }
 
         //update
-        public async Task<Employee> UpdateEmployeeAsync(int id, Employee employee)
+        public async Task<Employee> UpdateEmployeeAsync(int id, Employee employee, List<EmployeeRole> roles)
         {
-            return await _employeeRepository.UpdateEmployeeAsync(id, employee);
+            return await _employeeRepository.UpdateEmployeeAsync(id, employee, roles);
         }
     }
 }

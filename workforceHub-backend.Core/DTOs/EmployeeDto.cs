@@ -11,7 +11,7 @@ namespace Solid.Core.DTOs
 {
     public class EmployeeDto
     {
-        public int EmployeeId { get; set; }
+        public int Id { get; set; }
         [Required]
         public string FirstName { get; set; }
         [Required]

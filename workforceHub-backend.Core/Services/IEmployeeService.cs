@@ -12,7 +12,7 @@ namespace workforceHub_backend.Core.Services
         Task<List<Employee>> GetAllEmployeeAsync();
         Task<Employee> AddEmployeeAsync(Employee employee, List<EmployeeRole>? roles);
 
-        Task<Employee> UpdateEmployeeAsync(int id, Employee employee);
+        Task<Employee> UpdateEmployeeAsync(int id, Employee employee, List<EmployeeRole> roles);
 
         Task DeleteEmployeeAsync(int id);
 

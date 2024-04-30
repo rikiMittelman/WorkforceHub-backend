@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -41,32 +42,71 @@ namespace workforceHub_backend.Data.Repositories
         }
 
         //put
-        public async Task<Employee> UpdateEmployeeAsync(int id, Employee employee)
+        public async Task<Employee> UpdateEmployeeAsync(int id, Employee employee, List<EmployeeRole> roles)
         {
             var temp = _context.Employees.Find(id);
-            if (temp != null)
+            
+
+
+
+            using (var transaction = _context.Database.BeginTransaction())
             {
-                //temp.EmployeeId = employee.EmployeeId;
-                temp.FirstName = employee.FirstName;
-                temp.LastName = employee.LastName;
-                temp.Password = employee.Password;
-                temp.StartWorkDate = employee.StartWorkDate;
-                temp.DateOfBirth = employee.DateOfBirth;
-                temp.Status = employee.Status;
-                temp.Gender = employee.Gender;
+                var existingRoles = _context.EmployeeRoles.Where(r => r.EmployeeId == temp.EmployeeId).ToList();
+                if (temp != null)
+                {
+                    //temp.EmployeeId = employee.EmployeeId;
+                    temp.FirstName = employee.FirstName;
+                    temp.LastName = employee.LastName;
+                    temp.Password = employee.Password;
+                    temp.StartWorkDate = employee.StartWorkDate;
+                    temp.DateOfBirth = employee.DateOfBirth;
+                    temp.Status = employee.Status;
+                    temp.Gender = employee.Gender;
+                }
+                if (!existingRoles.SequenceEqual(roles))
+                {
+                    if (existingRoles.Any())
+                    {
+                        _context.EmployeeRoles.RemoveRange(existingRoles);
+                    }
+
+                    if (roles != null && roles.Any())
+                    {
+                        _context.EmployeeRoles.AddRange(roles);
+                    }
+
+                  
+                }
+                _context.SaveChanges();
+                transaction.Commit();
             }
-            await _context.SaveChangesAsync();
+
+
+
             return temp;
         }
         //delete
         public async Task DeleteEmployeeAsync(int id)
         {
-            var temp = _context.Employees.Find(id);
-            _context.Employees.Remove(temp);
-            await _context.SaveChangesAsync();
+            
+            using (var transaction = _context.Database.BeginTransaction())
+            {
+                var temp = _context.Employees.Find(id);
+                if(temp != null)
+                {
+                    temp.Status = false;
+                    await _context.SaveChangesAsync();
+                    transaction.Commit();
+                }
+                
+                else
+                {
+                    transaction.Rollback(); // Rollback transaction since no changes were made
+                }
+            }
 
         }
 
-       
+
     }
 }

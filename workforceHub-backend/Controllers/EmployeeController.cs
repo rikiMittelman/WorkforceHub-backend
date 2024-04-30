@@ -31,12 +31,12 @@ namespace workforceHub_backend.Controllers
         [HttpGet]
         public async Task<ActionResult> Get()
         {
-            var employees=await _employeeService.GetAllEmployeeAsync();
+            var employees = await _employeeService.GetAllEmployeeAsync();
             var roles = await _roleService.GetAllRoleAsync();
-            var empRoles =await _empRoleService.GetAllEmployeeRole();
+            var empRoles = await _empRoleService.GetAllEmployeeRole();
 
             var employeesList = new List<EmployeeDto>();
-            foreach (var emp in employees)
+            foreach (var emp in employees.Where(x => x.Status))
             {
                 var employeeRoles = empRoles.Where(r => r.EmployeeId == emp.EmployeeId).ToList();
                 employeesList.Add(Mapping.MappEmployee(emp, roles, employeeRoles));
@@ -56,10 +56,10 @@ namespace workforceHub_backend.Controllers
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] EmployeePostModel val)
         {
-            var employeeToAdd=new Employee {Identity= val.Identity, FirstName=val.FirstName, LastName=val.LastName,StartWorkDate = val.StartWorkDate, DateOfBirth=val.DateOfBirth,Status=val.Status,Password=val.Password,Gender=val.Gender};
+            var employeeToAdd = new Employee { Identity = val.Identity, FirstName = val.FirstName, LastName = val.LastName, StartWorkDate = val.StartWorkDate, DateOfBirth = val.DateOfBirth, Status = val.Status, Password = "1234", Gender = val.Gender };
             var roles = val?.Roles.Select(r =>
-            new EmployeeRole() { RoleId = r.RoleId, EntryDate = r.EntryDate, ManagementStatus = r.ManagementStatus }).ToList();
-            var newEmployee =await _employeeService.AddEmployeeAsync (employeeToAdd, roles); 
+            new EmployeeRole() { RoleId = r.Role.RoleId, EntryDate = r.EntryDate, ManagementStatus = r.ManagementStatus }).ToList();
+            var newEmployee = await _employeeService.AddEmployeeAsync(employeeToAdd, roles);
             return Ok(newEmployee);
         }
 
@@ -68,11 +68,15 @@ namespace workforceHub_backend.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult> Put(int id, EmployeePostModel val)
         {
-            var employeeToAdd = new Employee { FirstName = val.FirstName, LastName = val.LastName, StartWorkDate = val.StartWorkDate, DateOfBirth = val.DateOfBirth, Status = val.Status, Password = val.Password, Gender = val.Gender };
-            await _employeeService.UpdateEmployeeAsync(id, employeeToAdd);
+            var employeeToAdd = new Employee { FirstName = val.FirstName, LastName = val.LastName, StartWorkDate = val.StartWorkDate, DateOfBirth = val.DateOfBirth, Status = val.Status, Password = "1234", Gender = val.Gender };
+            var roles = val?.Roles.Select(r =>
+            new EmployeeRole() {EmployeeId = id,  RoleId = r.Role.RoleId, EntryDate = r.EntryDate, ManagementStatus = r.ManagementStatus }).ToList();
+
+            await _employeeService.UpdateEmployeeAsync(id, employeeToAdd, roles);
+
             return Ok();
         }
-        
+
         // DELETE api/<EmployeeController>/5
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)

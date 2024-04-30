@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 namespace workforceHub_backend.Core.Etities
 {
     public enum Gender{
-        Male,
-        Female
+        Male = 1,
+        Female = 2
     }
     [Serializable]
     public class Employee

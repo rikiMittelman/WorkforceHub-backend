@@ -11,7 +11,7 @@ namespace workforceHub_backend.Core.Repositories
     {
         public Task<List<Employee>> GetAllEmployeesAsync();
         public Task<Employee> AddEmployeeAsync(Employee employee, List<EmployeeRole> employeeRoles);
-        public Task<Employee> UpdateEmployeeAsync(int id, Employee employee);
+        public Task<Employee> UpdateEmployeeAsync(int id, Employee employee, List<EmployeeRole> employeeRoles);
         public Task DeleteEmployeeAsync(int id);
     }
 }

@@ -14,7 +14,7 @@ namespace workforceHub_backend.Core
         public static EmployeeDto MappEmployee(Employee employee,List< Role> roles, List< EmployeeRole> empRoles) {
            
             var emp = new EmployeeDto() {
-                EmployeeId = employee.EmployeeId,
+                Id = employee.EmployeeId,
                 DateOfBirth = employee.DateOfBirth,
                 FirstName = employee.FirstName,
                 LastName = employee.LastName,
@@ -32,10 +32,14 @@ namespace workforceHub_backend.Core
 
         public static EmployeeRoleDto MappRole(List<Role> roles, EmployeeRole empRole)
         {
+            var role = roles.FirstOrDefault(r => r.RoleId == empRole.RoleId);
+            if(role == null)
+            {
+                return null;
+            }
             return new EmployeeRoleDto()
             {
-                Description = roles.FirstOrDefault(r => r.RoleId == empRole.RoleId)?.RoleName,
-                RoleId = empRole.RoleId,
+                Role =new RoleDto() {RoleId = role.RoleId, RoleName = role.RoleName},
                 ManagementStatus = empRole.ManagementStatus,
                 EntryDate = empRole.EntryDate
             };

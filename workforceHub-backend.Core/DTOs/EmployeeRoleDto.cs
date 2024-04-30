@@ -9,8 +9,7 @@ namespace workforceHub_backend.Core.DTOs
 {
     public class EmployeeRoleDto
     {
-        public string Description { get; set; }
-        public int RoleId { get; set; }
+        public RoleDto Role { get; set; }
         public bool ManagementStatus { get; set; }
         public DateTime EntryDate { get; set; }
     }

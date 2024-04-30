@@ -8,7 +8,6 @@ namespace workforceHub_backend.Models
     {
         //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         //public int EmployeeId { get; set; }
-        public string Password { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Identity { get; set; }
@@ -16,7 +15,17 @@ namespace workforceHub_backend.Models
         public DateTime DateOfBirth { get; set; }
         public bool Status { get; set; }
         public Gender Gender { get; set; }
-        public List<EmployeeRole>Roles { get; set; }
+        public List<EmployeeRoleModel> Roles { get; set; }
 
     }
+
+    public class EmployeeRoleModel
+    {
+        public int EmployeeId { get; set; }
+        public Role Role { get; set; }
+        public bool ManagementStatus { get; set; }
+        public DateTime EntryDate { get; set; }
+    }
+
+   
 }
