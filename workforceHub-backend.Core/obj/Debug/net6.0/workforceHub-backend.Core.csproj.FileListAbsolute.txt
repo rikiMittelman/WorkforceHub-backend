@@ -10,3 +10,15 @@ C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj
 C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\refint\workforceHub-backend.Core.dll
 C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.pdb
 C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\ref\workforceHub-backend.Core.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\bin\Debug\net6.0\workforceHub-backend.Core.deps.json
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\bin\Debug\net6.0\workforceHub-backend.Core.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\bin\Debug\net6.0\workforceHub-backend.Core.pdb
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.AssemblyInfoInputs.cache
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.AssemblyInfo.cs
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.sourcelink.json
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\refint\workforceHub-backend.Core.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\workforceHub-backend.Core.pdb
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Core\obj\Debug\net6.0\ref\workforceHub-backend.Core.dll

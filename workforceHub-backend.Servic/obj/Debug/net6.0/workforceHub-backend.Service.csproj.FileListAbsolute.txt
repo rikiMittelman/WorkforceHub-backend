@@ -15,3 +15,21 @@ C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\o
 C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\refint\workforceHub-backend.Service.dll
 C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.pdb
 C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\ref\workforceHub-backend.Service.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Service.deps.json
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Service.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Service.pdb
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Core.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Data.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Core.pdb
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\bin\Debug\net6.0\workforceHub-backend.Data.pdb
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.csproj.AssemblyReference.cache
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.AssemblyInfoInputs.cache
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.AssemblyInfo.cs
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.sourcelink.json
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforc.EE34509C.Up2Date
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\refint\workforceHub-backend.Service.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\workforceHub-backend.Service.pdb
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\obj\Debug\net6.0\ref\workforceHub-backend.Service.dll

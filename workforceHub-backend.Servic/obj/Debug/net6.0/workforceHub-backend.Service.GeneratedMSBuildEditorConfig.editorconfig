@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = workforceHub_backend.Servic
-build_property.ProjectDir = C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Servic\
+build_property.ProjectDir = Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Servic\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

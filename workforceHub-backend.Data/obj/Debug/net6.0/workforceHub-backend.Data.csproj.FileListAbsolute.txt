@@ -15,3 +15,21 @@ C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Data\obj
 C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\ref\workforceHub-backend.Data.dll
 C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Data\bin\Debug\net6.0\workforceHub-backend.Data.runtimeconfig.json
 C:\Users\user1\Desktop\שרת\workforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\workforceHub-backend.Data.genruntimeconfig.cache
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\bin\Debug\net6.0\workforceHub-backend.Data.deps.json
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\bin\Debug\net6.0\workforceHub-backend.Data.runtimeconfig.json
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\bin\Debug\net6.0\workforceHub-backend.Data.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\bin\Debug\net6.0\workforceHub-backend.Data.pdb
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\bin\Debug\net6.0\workforceHub-backend.Core.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\bin\Debug\net6.0\workforceHub-backend.Core.pdb
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\workforceHub-backend.Data.csproj.AssemblyReference.cache
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\workforceHub-backend.Data.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\workforceHub-backend.Data.AssemblyInfoInputs.cache
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\workforceHub-backend.Data.AssemblyInfo.cs
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\workforceHub-backend.Data.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\workforceHub-backend.Data.sourcelink.json
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\workforc.AEF228A7.Up2Date
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\workforceHub-backend.Data.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\refint\workforceHub-backend.Data.dll
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\workforceHub-backend.Data.pdb
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\workforceHub-backend.Data.genruntimeconfig.cache
+Y:\Groups\Group_3\מיטלמן  ריקי\שרת\WorkforceHub-backend\workforceHub-backend.Data\obj\Debug\net6.0\ref\workforceHub-backend.Data.dll

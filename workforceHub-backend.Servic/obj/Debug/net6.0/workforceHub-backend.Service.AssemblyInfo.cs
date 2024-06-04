@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("workforceHub-backend.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a5f6221a8cb5b8737eb4089e57cca62ad4f71e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("workforceHub-backend.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("workforceHub-backend.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
